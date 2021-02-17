@@ -5,18 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Modest</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="flex-container">
-            <div class="logo">
-            <img src="images/logo.png" alt="">
-            </div>
-            
+            <div class="row header-row">
+                <div class="col-xs-12 col-sm-3"><img src="images/logo.png" alt=""></div>
+            <div class="col-xs-12 col-sm-7">
                 <ul class="menu">
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -26,27 +24,39 @@
                     <li><a href="">FEATURES</a></li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
-            
+            </div>
+            <div class="col-xs-hidden col-sm-2">
             <div class="search">
                 <form action="" class="form-search">
                     <input type="text" class="input-search" placeholder="SEARCH">
                     <input type="button" class="input-button">
                 </form>
             </div>
+        </div>
         </div> 
     </div>
     </header>
     <div class="slider">
         <div class="container">
-            <h1 class="slider_header">WELCOME TO OUR MARKETPLACE</h1>
-            <p class="slider_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <div class="row slider-row">
+            <div class="col-xs-12 col-sm-7"><h1 class="slider_header">WELCOME TO OUR MARKETPLACE</h1></div>
+            <div class="col-xs-12 col-sm-7"><p class="slider_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Obcaecati optio quo distinctio magnam expedita ex, 
                 recusandae sequi corrupti totam delectus et voluptatum atque 
-                rerum ratione minus reprehenderit omnis molestiae laudantium.</p>
-                <button class="button">VIEW MORE</button>
-                <button class="button">VIDEO TOUR</button>
+                rerum ratione minus reprehenderit omnis molestiae laudantium.</p></div>
+                <div class="col-xs-12 col-sm-7"><button class="button">VIEW MORE</button>
+                <button class="button">VIDEO TOUR</button></div>
         </div>
     </div>
- 
+</div>
+<div class="we-are-modest">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">header</div>
+            <div class="col-sm-7">text</div>
+            <div class="col-sm-5">dedication</div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
