@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Modest</title>
@@ -13,9 +15,10 @@
     <header class="header">
         <div class="container">
             <div class="row header-row">
-                <div class="col-xs-12 col-sm-3"><img src="images/logo.png" alt=""></div>
-            <div class="col-xs-12 col-sm-7">
-                <ul class="menu">
+            <div class="col-xs-6 col-xs-12 col-sm-3"><img src="images/logo.png" alt="" class="logo"></div>
+            <div class="col-xs-6 col-xs-12 col-sm-7">
+                <nav class="navigation hidden-menu">
+                    <ul class="menu">
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">WORK</a></li>
@@ -23,7 +26,13 @@
                     <li><a href="">SERVICES</a></li>
                     <li><a href="">FEATURES</a></li>
                     <li><a href="">CONTACT</a></li>
-                </ul>
+                    </ul>
+                </nav>
+                <div class="nav-mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
             <div class="col-xs-hidden col-sm-2">
             <div class="search">
@@ -49,14 +58,386 @@
         </div>
     </div>
 </div>
-<div class="we-are-modest">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">header</div>
-            <div class="col-sm-7">text</div>
-            <div class="col-sm-5">dedication</div>
+<main>
+    <section class="we-are-modest">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-xs-12">
+                    <div class="section-header light-header">
+                        <h2>we are modest.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row header-row">
+                <div class="col-sm-7">
+                    <div class="modest-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Sed nisi metus, tristique ndolor non, ornare sagittis 
+                            dolor. Nulla vestibulu lacus sed molestie gravida. 
+                            Crferm entum  quismagna congue, vel sodales arcu vestibulum. 
+                            Nunc lobortis dui magna, quis lacusullamcorper at.</p>
+                            <br>
+                        <p>Phasellus sollicitudin ante eros ornare, <span> sit amet luctus 
+                            lorem semper.</span> Suspendisse posuere, quamdictum consectetur, 
+                            augue metus pharetra tellus, eu feugiatloreg egetnisi. 
+                            Cras ornare bibendum ante, ut bibendum odio convallis eget. 
+                            vel sodales arcu vestibulum</p>
+                    </div>
+                    <div class="social-networks">
+                        <div class="social">
+                            <a href="">
+                                <img src="images/facebook.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="">
+                                <img src="images/twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="">
+                                <img src="images/google.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="">
+                                <img src="images/dribbble.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="">
+                                <img src="images/be.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="work-with-customer">
+                        <div class="square"> 01 </div>
+                        <div class="main-title">
+                            <h3 class="list-title">Dedacation to the custemer</h3>
+                            <p class="text"> Integer vel lacus non dui ullamcorper venenatis. 
+                                Aliquam vitae tristique nisi, vitae ullamcorper risus.</p>
+                        </div>
+                    </div>
+                    <div class="work-with-customer">
+                        <div class="square"> 02 </div>
+                        <div class="main-title">
+                            <h3 class="list-title">Dedacation to the custemer</h3>
+                            <p class="text"> Sed blandit nisi urna, sed pellentesque enim consectetur vitae. 
+                                Suspendisse ut vehicula nibh.</p>
+                        </div>
+                    </div>
+                    <div class="work-with-customer">
+                        <div class="square"> 03 </div>
+                        <div class="main-title">
+                            <h3 class="list-title">Dedacation to the custemer</h3>
+                            <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Nulla eleifend laoreet euismod.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="meet-the-team">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-xs-12">
+                    <div class="section-header light-header">
+                        <h2>meet the team.</h2>
+                    </div>
+                    <div class="section-body">
+                        <div class="person">
+                            <div class="photo">
+                                <img src="images/gloria.png" alt="">
+                            </div>
+                            <div class="description">
+                                <p class="list-title">Gloria Bromley</p>
+                                <p class="position">CEO and Founder</p>
+                            </div>
+                            <div class="contact">
+                                <a href="" class="contact-with">
+                                    <img src="images/twitter.png" alt="">
+                                </a>
+                                <a href="" class="contact-with">
+                                    <img src="images/facebook.png" alt="">
+                                </a>
+                                <a href="" class="contact-with">
+                                    <img src="images/in.png" alt="">
+                                </a>
+                            </div>
+                    </div>
+                    <div class="person">
+                        <div class="photo">
+                            <img src="images/paul.png" alt="">
+                        </div>
+                        <div class="description">
+                            <p class="list-title">Gloria Bromley</p>
+                            <p class="position">CEO and Founder</p>
+                        </div>
+                        <div class="contact">
+                            <a href="" class="contact-with">
+                                <img src="images/twitter.png" alt="">
+                            </a>
+                            <a href="" class="contact-with">
+                                <img src="images/facebook.png" alt="">
+                            </a>
+                            <a href="" class="contact-with">
+                                <img src="images/in.png" alt="">
+                            </a>
+                        </div>
+                </div>
+                <div class="person">
+                    <div class="photo">
+                        <img src="images/judith.png" alt="">
+                    </div>
+                    <div class="description">
+                        <p class="list-title">Gloria Bromley</p>
+                        <p class="position">CEO and Founder</p>
+                    </div>
+                    <div class="contact">
+                        <a href="" class="contact-with">
+                            <img src="images/twitter.png" alt="">
+                        </a>
+                        <a href="" class="contact-with">
+                            <img src="images/facebook.png" alt="">
+                        </a>
+                        <a href="" class="contact-with">
+                            <img src="images/in.png" alt="">
+                        </a>
+                    </div>
+            </div>
+            <div class="person">
+                <div class="photo">
+                    <img src="images/delores.png" alt="">
+                </div>
+                <div class="description">
+                    <p class="list-title">Gloria Bromley</p>
+                    <p class="position">CEO and Founder</p>
+                </div>
+                <div class="contact">
+                    <a href="" class="contact-with">
+                        <img src="images/twitter.png" alt="">
+                    </a>
+                    <a href="" class="contact-with">
+                        <img src="images/facebook.png" alt="">
+                    </a>
+                    <a href="" class="contact-with">
+                        <img src="images/in.png" alt="">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div> 
 </div>
+    </section>
+    <section class="lovely-work">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-xs-12">
+                    <div class="section-header dark-header">
+                        <h2>lovely work.</h2>
+                    </div>
+                    <div class="lovely-body">
+                        <div class="picture">
+                            <img src="images/img1.png" alt="">
+                            <div class="plus"><img src="images/plus.png" alt=""></div>
+                            <div class="guidline">partnership guidline</div>
+                        </div>
+                        <div class="picture">
+                            <img src="images/img2.png" alt="">
+                            <div class="plus"><img src="images/plus.png" alt=""></div>
+                            <div class="guidline">partnership guidline</div>
+                        </div>
+                        <div class="picture">
+                            <img src="images/img3.png" alt="">
+                            <div class="plus"><img src="images/plus.png" alt=""></div>
+                            <div class="guidline">partnership guidline</div>
+                        </div>
+                        <div class="picture">
+                            <img src="images/img4.png" alt="">
+                            <div class="plus"><img src="images/plus.png" alt=""></div>
+                            <div class="guidline">partnership guidline</div>
+                        </div>
+                        <div class="picture">
+                            <img src="images/img5.png" alt="">
+                            <div class="plus"><img src="images/plus.png" alt=""></div>
+                            <div class="guidline">partnership guidline</div>
+                        </div>
+                        <div class="picture">
+                            <img src="images/img6.png" alt="">
+                            <div class="plus"><img src="images/plus.png" alt=""></div>
+                            <div class="guidline">partnership guidline</div>
+                        </div>
+                    </div>
+                    <div class="btn-body">
+                        <button class="lovely-btn">show me more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="what-we-do">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-xs-12">
+                    <div class="section-header light-header">
+                        <h2>what we do.</h2>
+                    </div>
+                    <div class="do-body">
+                        <div class="col-sm-3 service">
+                            <img src="images/set.png" alt="">
+                            <p class="service-header">easy theme setup</p>
+                            <p class="text">Nunc mattis lorem in leo lobortis,
+                                 ut venenatis justo commodo. Maecenas a justo 
+                                 nec velit egestas fermentum.</p>
+                        </div>
+                        <div class="col-sm-3 service">
+                            <img src="images/pen.png" alt="">
+                            <p class="service-header">pixel perfect design</p>
+                            <p class="text">Nunc mattis lorem in leo lobortis,
+                                 ut venenatis justo commodo. Maecenas a justo 
+                                 nec velit egestas fermentum.</p>
+                        </div>
+                        <div class="col-sm-3 service">
+                            <img src="images/phone.png" alt="">
+                            <p class="service-header">responsive display</p>
+                            <p class="text">Nunc mattis lorem in leo lobortis,
+                                 ut venenatis justo commodo. Maecenas a justo 
+                                 nec velit egestas fermentum.</p>
+                        </div>
+                        <div class="col-sm-3 service">
+                            <img src="images/clock.png" alt="">
+                            <p class="service-header">24/7 support</p>
+                            <p class="text">Nunc mattis lorem in leo lobortis,
+                                 ut venenatis justo commodo. Maecenas a justo 
+                                 nec velit egestas fermentum.</p>
+                        </div><div class="col-sm-3 service">
+                            <img src="images/set.png" alt="">
+                            <p class="service-header">easy theme setup</p>
+                            <p class="text">Nunc mattis lorem in leo lobortis,
+                                 ut venenatis justo commodo. Maecenas a justo 
+                                 nec velit egestas fermentum.</p>
+                        </div>
+                        <div class="col-sm-3 service">
+                            <img src="images/pen.png" alt="">
+                            <p class="service-header">pixel perfect design</p>
+                            <p class="text">Nunc mattis lorem in leo lobortis,
+                                 ut venenatis justo commodo. Maecenas a justo 
+                                 nec velit egestas fermentum.</p>
+                        </div>
+                        <div class="col-sm-3 service">
+                            <img src="images/phone.png" alt="">
+                            <p class="service-header">responsive display</p>
+                            <p class="text">Nunc mattis lorem in leo lobortis,
+                                 ut venenatis justo commodo. Maecenas a justo 
+                                 nec velit egestas fermentum.</p>
+                        </div>
+                        <div class="col-sm-3 service">
+                            <img src="images/clock.png" alt="">
+                            <p class="service-header">24/7 support</p>
+                            <p class="text">Nunc mattis lorem in leo lobortis,
+                                 ut venenatis justo commodo. Maecenas a justo 
+                                 nec velit egestas fermentum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-xs-12">
+                    <div class="section-header dark-header">
+                        <h2>features.</h2>
+                    </div>
+                    <div class="features-body">
+                        <div class="feature">
+                            <img src="images/landscape1.png" alt="">
+                            <h3>Product Design: Eames Chairs</h3>
+                            <p class="text">Eames designs are certainly iconic. Everyone of us know at least two or three
+                                of their famous chairs. I would even risk saying that most of us dream about
+                                having a nice Eames.</p>
+                        </div>
+                        <div class="feature">
+                            <img src="images/landscape2.png" alt="">
+                            <h3>Elegant and Colorful Logos</h3>
+                            <p class="text">Eames designs are certainly iconic. Everyone of us know at least two or three
+                                of their famous chairs. I would even risk saying that most of us dream about
+                                having a nice Eames.</p>
+                        </div>
+                        <div class="feature">
+                            <img src="images/landscape3.png" alt="">
+                            <h3>A Showcase of Creative</h3>
+                            <p class="text">Eames designs are certainly iconic. Everyone of us know at least two or three
+                                of their famous chairs. I would even risk saying that most of us dream about
+                                having a nice Eames.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stay-in-touch">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-xs-12">
+                    <div class="section-header light-header">
+                        <h2>stay in touch</h2>
+                    </div>
+                    <div class="touch-body">
+                        <div class="map">
+                            <map name="">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317.5470220635955!2d30.52543202524322!3d50.4527193524793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50288079b7%3A0x19d770d2ad23e992!2z0LLRg9C70LjRhtGPINCa0L7RgdGC0YzQvtC70YzQvdCwLCAxMCwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1614279885056!5m2!1suk!2sua" 
+                                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </map>
+                        </div>
+                        <div class="col-sm-6 contact-info">
+                            <h3>Contact information</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus,
+                            tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed
+                            molestie gravida. </p>
+                            <p>Cras fermentum elit quis magna congue, <span>vel sodales</span> arcu
+                            vestibulum. Nunc lobortis dui magna, quis dapibus lacus </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                   <div class="footer-body">
+                       <div class="footer-text"><p>&copy; Copyright 2014 by PSD Booster. All Rights Reserved.</p></div>
+                       <div class="footer-icons">
+                        <a href="">
+                            <img src="images/twitter.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/facebook.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/skype.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/be.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/in.png" alt="">
+                        </a>
+                       </div>
+                </div> 
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+<script src="app.js"></script>
 </body>
 </html>
