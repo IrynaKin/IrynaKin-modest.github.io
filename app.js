@@ -10,3 +10,37 @@ mobileMenu.addEventListener("click",function() {
         mainMenu.classList.remove("active-menu")
     }
 })
+
+
+// Modal
+let modal = document.querySelector(".modal");
+let closeBtn = document.querySelector(".modal-close-btn");
+
+function showModalByScroll() {
+    if(window.pageYOffset > document.body.scrollHeight/2) {
+        openModal()
+        window.removeEventListener("scroll",showModalByScroll)
+    }
+}
+
+window.addEventListener("scroll", showModalByScroll);
+
+
+closeBtn.addEventListener("click", closeModal)
+
+function openModal () {
+    modal.classList.add("show");
+    modal.classList.remove("hide");
+}
+
+function closeModal() {
+    modal.classList.add("hide");
+    modal.classList.remove("show");
+}
+
+modal.addEventListener("click", function(e) {
+    console.log(e.target)
+    if(e.target===modal) {
+        closeModal()
+    }
+})
